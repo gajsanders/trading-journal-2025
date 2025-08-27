@@ -1,0 +1,24 @@
+{
+    "trading_settings": {
+        "default_currency": "USD",
+        "risk_tolerance": "moderate",
+        "max_position_size": 0.05,
+        "stop_loss_percent": 2.0,
+        "take_profit_percent": 4.0
+    },
+    "analysis_settings": {
+        "lookback_period_days": 90,
+        "minimum_trades_for_analysis": 10,
+        "metrics": [
+            "win_rate",
+            "profit_factor",
+            "sharpe_ratio",
+            "max_drawdown"
+        ]
+    },
+    "export_settings": {
+        "default_format": "markdown",
+        "include_charts": true,
+        "include_llm_insights": true
+    }
+}

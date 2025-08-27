@@ -1,0 +1,3 @@
+Symbol,Price,Time,Order #,Description,Expiry,Strike,OptionType,Side,Quantity
+AAPL,,2024-07-01 09:30,123,Buy call,2024-07-19,150.0,Call,BTO,1
+,1.8,2024-07-01 10:00,456,Buy put,2024-07-19,300.0,Put,BTO,2 

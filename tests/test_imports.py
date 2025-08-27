@@ -1,0 +1,27 @@
+def test_imports():
+    import src
+    import src.models.trade
+    import src.models.strategy
+    import src.models.performance
+    import src.processors.csv_processor
+    import src.processors.duplicate_detector
+    import src.analyzers.trade_linker
+    import src.analyzers.strategy_detector
+    import src.analytics.metrics_calculator
+    import src.analytics.advanced_analyzer
+    import src.llm.openai_client
+    import src.llm.prompt_builder
+    import src.insights.insight_generator
+    import src.insights.reflection_engine
+    import src.visualizations.chart_generator
+    import src.visualizations.chart_config
+    import src.visualizations.chart_coordinator
+    import src.visualizations.chart_optimizer
+    import src.reports.markdown_generator
+    import src.reports.report_assembler
+    import src.reports.export_handler
+    import src.app.streamlit_app
+    import src.app.ui_components
+    import src.app.data_handler
+    import src.app.duplicate_ui
+    import src.app.main_controller 
