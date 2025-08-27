@@ -3,7 +3,6 @@
 A comprehensive Python-based analytics tool for options and futures traders. Analyze, visualize, and reflect on your trading journal data with advanced metrics, LLM-powered insights, and professional reports.
 
 ---
-
 ## Features
 - TastyTrade CSV upload and parsing
 - Duplicate detection and review
@@ -18,7 +17,6 @@ A comprehensive Python-based analytics tool for options and futures traders. Ana
 - Downloadable monthly reports
 
 ---
-
 ## Environment & Deployment Instructions
 
 ### Python Version
@@ -51,7 +49,6 @@ streamlit run src/app/streamlit_app.py
 ```
 
 ---
-
 ## API Documentation (Key Components)
 
 ### `src/app/main_controller.py`
@@ -159,7 +156,6 @@ print(results['summary'])
 | LOG_LEVEL          | .env/config.py | Logging level (INFO, DEBUG, etc.)           |
 
 ---
-
 ## Streamlit User Guide
 
 ### Step-by-Step Workflow
@@ -182,7 +178,6 @@ graph TD;
 ```
 
 ---
-
 ## Sample Data & Example Workflow
 
 ### Sample CSV (tests/sample_valid_trades.csv)
@@ -215,7 +210,6 @@ MSFT,1.8,2024-07-01 10:00,456,Buy put,2024-07-19,300.0,Put,BTO,2
 This workflow can be repeated with your own TastyTrade CSV exports for full analytics and reporting.
 
 ---
-
 ## Usage
 
 ### Streamlit Web App
@@ -231,7 +225,6 @@ pytest tests/
 ```
 
 ---
-
 ## Testing
 - **Unit and integration tests:**
   ```bash
@@ -250,7 +243,6 @@ pytest tests/
   - ✅ **COMPLETE**: HTTP testing framework fully implemented and tested
 
 ---
-
 ## Troubleshooting
 - **File upload not working in tests:** This is a known limitation of Streamlit's testing API. Test backend logic separately.
 - **OpenAI API errors:** Ensure your API key is set in `.env` and you have internet access.
@@ -258,7 +250,6 @@ pytest tests/
 - **Other issues:** Check logs and error messages in the UI or console.
 
 ---
-
 ## Deployment
 - **Local:**
   - Run `./run.sh` or `streamlit run src/app/streamlit_app.py`
@@ -274,7 +265,6 @@ pytest tests/
     ```
 
 ---
-
 ## Maintenance & Version Control
 - Use `git` for version control
 - Tests and CI recommended for updates
@@ -282,7 +272,6 @@ pytest tests/
 - For future enhancements, see `Todo.md` and `Specification.md`
 
 ---
-
 ## Acknowledgements
 - Built with Streamlit, pandas, matplotlib, seaborn, OpenAI, and Jinja2
-- See `Specification.md` for full technical details 
+- See `Specification.md` for full technical details
